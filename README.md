@@ -76,11 +76,11 @@ Final selected model: Support Vector Classifier (SVC)
 
 Key Performance (example results – update with your run):
 
-Model	Accuracy	Precision	Recall	F1	ROC-AUC
-SVC (final)	0.82	0.67	0.64	0.65	0.87
-Random Forest	0.84	0.72	0.66	0.69	0.89
-Logistic Regression	0.81	0.65	0.61	0.63	0.86
-XGBoost	0.83	0.71	0.65	0.68	0.88
+Model	                Accuracy	Precision	  Recall	F1	  ROC-AUC
+SVC (final)            	0.82	      0.64	  0.57	  0.60	    _
+Random Forest	          0.81	      0.61	  0.54	  0.57	  0.84
+Logistic Regression    	0.82	      0.61	  0.57	  0.59	  0.85
+XGBoost	                0.82	      0.62	  0.54	  0.58	  0.84
 
 
 🚀 Deployment
