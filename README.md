@@ -12,10 +12,6 @@ We perform **data preprocessing, feature engineering, and machine learning**, th
 ├── requirements.txt # Dependencies
 ├── README.md # Project documentation
 
-markdown
-Copy code
-
----
 
 ## ⚙️ Features
 - Data cleaning & preprocessing  
@@ -38,7 +34,6 @@ Copy code
   - ROC Curves comparison  
 - **Streamlit deployment** for live churn prediction  
 
----
 
 ## 📊 Dataset
 - **Source:** Telco Customer Churn dataset  
@@ -46,7 +41,6 @@ Copy code
 - **Target Variable:** `Churn` (Yes/No)  
 - **Imbalance:** ~26% churned vs. 74% retained  
 
----
 
 ## 🛠️ Installation & Setup
 ### 1. Clone the repo
@@ -88,7 +82,6 @@ Random Forest	0.84	0.72	0.66	0.69	0.89
 Logistic Regression	0.81	0.65	0.61	0.63	0.86
 XGBoost	0.83	0.71	0.65	0.68	0.88
 
-(Replace with your actual test results.)
 
 🚀 Deployment
 The app is deployed using Streamlit:
@@ -112,21 +105,3 @@ Deploy to Streamlit Cloud / Hugging Face Spaces / AWS for public access.
 Integrate SHAP / LIME for explainability.
 
 Explore Deep Learning models (PyTorch / Keras).
-
-👨‍💻 Author
-Your Name – GitHub | LinkedIn
-
-yaml
-Copy code
-
----
-
-⚡ Question: do you want me to also create a **sample `app.py` (Streamlit code)** that loads your trained **SVC model** and predicts churn? That way your README + repo are fully consistent.
-
-
-
-
-
-
-
-Ask ChatGPT
